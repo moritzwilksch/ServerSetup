@@ -14,3 +14,6 @@ sudo chsh -s /usr/bin/zsh $USER
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 sudo chmod +x Miniforge3-Linux-x86_64.sh
 ./Miniforge3-Linux-x86_64.sh
+
+source miniforge3/bin/activate
+conda init zsh
