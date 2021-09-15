@@ -1,3 +1,3 @@
 #!/bin/sh
 sudo apt-get install update
-sudo apt-get install htop 
+sudo apt-get install htop git zsh
