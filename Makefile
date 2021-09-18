@@ -3,7 +3,7 @@ system:
 	sudo apt-get install htop git zsh wget make tmux
 
 zsh:
-	sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+	zsh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 	sudo chsh -s /usr/bin/zsh ${USER}
 	
 conda:
