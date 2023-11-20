@@ -44,4 +44,6 @@ echo "Defining aliases"
 echo "alias ll='ls -al'" >> ~/.zshrc
 echo "alias la='ls -al'" >> ~/.zshrc
 echo "alias mm='micromamba'" >> ~/.zshrc
+echo "alias ipy='ipython'" >> ~/.zshrc
+echo "alias ipyi='ipython -i'" >> ~/.zshrc
 source ~/.zshrc
