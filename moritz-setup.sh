@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-packages=("git" "htop" "zsh" "wget" "make" "tmux")
+packages=("git" "htop" "zsh" "wget" "make" "tmux" "util-linux-user")
 
 
 # Function to check if a command is available
