@@ -34,6 +34,9 @@ echo "Installing micromamba"
 /usr/bin/zsh <(curl -L micro.mamba.pm/install.sh)
 source ~/.zshrc
 
+# create mambarc
+wget -P ~/ https://github.com/moritzwilksch/dotfiles/raw/main/.mambarc
+
 # Download dotfiles
 echo "Downloading dotfiles"
 wget -P ~/ https://raw.githubusercontent.com/moritzwilksch/dotfiles/main/.tmux.conf
