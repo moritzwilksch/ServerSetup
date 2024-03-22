@@ -50,7 +50,7 @@ cd ~/.config/ && git clone https://github.com/moritzwilksch/nvim.git && cd
 echo "Downloading dotfiles"
 mkdir -p ~/.config/fish
 wget -P ~/ https://raw.githubusercontent.com/moritzwilksch/dotfiles/main/.tmux.conf
-wget -P ~/.config/fish/config.fish https://github.com/moritzwilksch/dotfiles/raw/main/.config/fish/config.fish
+wget -P ~/.config/fish/ https://github.com/moritzwilksch/dotfiles/raw/main/.config/fish/config.fish
 
 # Define aliases
 echo "Defining aliases"
