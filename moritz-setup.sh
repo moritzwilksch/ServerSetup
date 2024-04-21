@@ -50,4 +50,4 @@ echo "alias ipyi='ipython -i'" >> ~/.config/fish/config.fish
 echo "alias nvim=/usr/bin/nvim-linux64/bin/nvim" >> ~/.config/fish/config.fish
 
 # change login shell
-chsh -s /usr/bin/fish $USER
+# chsh -s /usr/bin/fish $USER
